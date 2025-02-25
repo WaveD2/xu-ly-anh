@@ -1,0 +1,43 @@
+yolov5/
+test_image/
+check_cache/
+/draw_image.py
+/test.py
+/res.jpg
+cache.jpg
+cache_ch.jpg
+edge.jpg
+line.jpg
+crop.jpg
+
+# Bỏ qua các thư mục ảo của Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Bỏ qua môi trường ảo
+venv/
+env/
+*.venv
+
+# Bỏ qua tệp cấu hình và dữ liệu cá nhân
+*.env
+*.log
+*.sqlite3
+*.db
+config.json
+secrets.json
+
+# Bỏ qua các file tạo tự động
+*.egg-info/
+dist/
+build/
+*.spec  # File cấu hình PyInstaller
+
+# Bỏ qua tệp Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# Bỏ qua tệp nén
+*.zip
+*.tar.gz
+*.rar
